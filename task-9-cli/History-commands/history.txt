@@ -1,0 +1,50 @@
+color 4
+color e
+color 1
+color 7
+
+
+
+
+cd appfoster-ase-training
+cd task-9-cli
+mkdir Command
+touch command1.txt
+mkdir History-commands
+copy command1.txt History-commands
+move command1.txt Command
+cd command
+ren command1.txt command2.txt
+move command2.txt task-9-cli
+ren 1. What did you work on? 
+Started task 8.
+2. What is your plan for today?
+Try to complete task-8 and implement the changes suggested by Rishabh in the previous tickets.
+3. Are there any roadblocks in your way?
+ren task-9-cli command2.txt
+copy command2.txt task-9-cli
+dir task-9-cli
+cd ..
+dir task-9-cli
+cd ..
+dir task-9-cli
+cd task-9-cli
+move command2.txt history-commands
+ cd command
+move command2.txt history-commands
+doskey/history
+cd ..
+cd history commands
+cd history-commands
+doskey/history>command1.txt
+cd ..
+doskey/history
+tree/f
+doskey/history
+cd task-9-cli
+rmdir /s command
+y
+cd history-commands
+move command1.txt task-9-cli
+ren task-9-cli command1.txt
+doskey/history>command1.txt

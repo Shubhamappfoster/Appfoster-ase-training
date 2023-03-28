@@ -1,0 +1,31 @@
+.div1{
+    position: relative;
+    display: grid;
+    grid-template-columns: .35fr 6fr;
+}
+.div1 .divpro{
+    margin-left: none;
+}
+
+.btn.btn-primary {
+
+    --bs-btn-font-weight: 600;
+    /* --bs-btn-color: #F99417; */
+    --bs-btn-bg: var(--bd-violet);
+    /* --bs-btn-border-color: green; */
+    --bs-btn-border-radius: 600rem;
+    /* --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)}; */
+    /* --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)}; */
+  }
+
+  .card {
+    padding: 1.5em 0.5em 0.5em;
+    border-radius: 500em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }

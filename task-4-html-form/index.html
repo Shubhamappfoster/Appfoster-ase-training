@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <div>
+    <h2>Primary details</h2>
+    <form>
+        <label for="medicare no.">Medicare No</label>
+        <input type="text" >/Valid till
+        <input type="date">
+        <br />
+        <label for="title">Title</label>
+        <select id="title" name="title">
+          <option value="" disabled selected>None</option>
+          <option value="Mr.">Mr.</option>
+          <option value="Mrs.">Mrs.</option>
+          <option value="Miss">Miss.</option><br>
+          </select> <br>
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lastname, firstname, middlename <br>
+        <label for="name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="name"><br>
+        <label for="pref name">Pref name</label>
+        <input type="text"><br>
+        <label for="dob">DOB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="date"><br>
+        <label for="sex">Sex &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" name="sex" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female">
+        <label for="female"> Female</label>
+<br>
+        <label for="Family-name">Family Name</label>
+        <input type="text">
+    </div>
+    <div>
+        <h2>Contact details</h2>
+        <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Work</font><br>
+        
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required> <br>
+        <font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Fax</font><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required> <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <font size="+1">Next of kin  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next of kin Ph:</font><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text">
+        <input type="tel"> <br>
+        <label for="emer-no">Emergency No.</label>
+
+        <input type="tel" id="emer-no" name="Emergency" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required> <br>
+        <label for="email"> Email </label>
+        <input type="email" id="email" name="email">
+    </div>
+    <div>
+        <h2>Address details</h2>
+        <h2>Residential Address</h2>
+        <label for="address">Address 1</label>
+        <input type="text"> <br>
+        <label for="address">Address 2</label>
+        <input type="text"> <br>
+        <label for="suburp">Suburp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text">&nbsp;&nbsp;
+        <label for="states">States</label>
+        <select name="states" id="states">
+        <option value="" disabled selected>VIC</option>
+        <option value="">UP</option>
+        <option value="">Delhi</option>
+    </select> <br>
+    <label for="post">Postal Code</label>
+    <input type="tel">&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="country">Country</label>
+    <input type="text">
+    </div>
+    <h3 >Single address</h3>
+         <label for="single-add">Are Mailing address and Residential address same?</label>
+         <input type="checkbox" id="single-add"> <br>
+    
+         <h2>Mailing Address</h2>
+         <label for="address">Address 1</label>
+         <input type="text"> <br>
+         <label for="address">Address 2</label>
+         <input type="text"> <br>
+         <label for="suburp">Suburp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+         <input type="text">&nbsp;&nbsp;
+         <label for="states">States</label>
+         <select name="states" id="states">
+         <option value="" disabled selected>VIC</option>
+         <option value="">UP</option>
+         <option value="">Delhi</option>
+     </select> <br>
+     <label for="post">Postal Code</label>
+     <input type="tel">&nbsp;&nbsp;&nbsp;&nbsp;
+     <label for="country">Country</label>
+     <input type="text"><br><br><br>
+
+     <div>
+     <label for="IHI-No">IHI Number   80036</label>
+        <input type="text" > <br>
+        <label for="Num-Status">Number Status &nbsp;&nbsp;&nbsp;</label>
+        <input type="text" ><br>
+        <label for="Record-Status">Record Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" > <br>
+        <label for="Last-Updated">Last Updated &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" ><br> <br>
+
+        <button type="submit"  value="Submit">Submit</button>
+        <button type="reset">Clear</button>
+    </div>
+
+    </form>
+    
+</body>
+</html>

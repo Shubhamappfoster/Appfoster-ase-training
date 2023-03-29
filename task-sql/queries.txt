@@ -1,0 +1,38 @@
+1. To insert values in customers table.
+INSERT INTO Customers VALUES(6, 'Shubham', 'Mishra', 22, 'India');
+
+2. To insert multiple values in customers table.
+INSERT INTO Customers VALUES
+  (7, 'Jack', 'Sparrow', 52, 'USA'),
+  (8, 'Narendra', 'Modi', 60, 'India'),
+  (9, 'Shashank', 'Singh', 23, 'India');
+
+3. To get number of customers per country. 
+SELECT COUNT(country)
+FROM Customers
+GROUP BY country;
+
+4. To get the orders who have amount between 100 to 500.
+SELECT *
+FROM Orders
+WHERE amount BETWEEN 100 AND 500;
+
+5. To get the first name and last name of customers who have bought Keypad.
+SELECT first_name, last_name
+FROM Customers
+JOIN Orders ON Orders.order_id = Customers.customer_id
+WHERE item = 'Keyboard'
+
+6. To get the name of the countries where shipping status is Pending.
+SELECT country
+FROM Customers
+JOIN Shippings ON Shippings.customer = Customers.customer_id
+WHERE status = 'Pending'
+
+7. To get the number of orders per customer.
+SELECT first_name ||  ' ' || last_name AS Names, COUNT(Orders.order_id) AS num_orders
+FROM Customers
+JOIN Orders ON Customers.customer_id = Orders.customer_id
+GROUP BY Customers.customer_id;
+
+

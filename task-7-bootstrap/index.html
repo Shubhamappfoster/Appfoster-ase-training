@@ -1,243 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
-    <link rel="icon" href="favcon.ico">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+    <body>
+        <div id="nav-con" style="background-color: #f3f6fd;height:110vh">
+            <!-- nav bar -->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
 
-                <h3><b><i class="fa fa-bars" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio</b></h3>
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <form class="d-flex">
-                    <input class="form-control me-2 rounded-5" type="search" placeholder="Search" aria-label="Search">
-                </div>
-                <span style="padding: 10px;"><i style="font-size: 1rem;" class="bi bi-moon"></i></span>
-                <span style="padding: 10px;"><i style="font-size: 1.5rem;" class="bi bi-plus-circle-fill"></i></span>
-                <span style="padding: 10px;"><i style="font-size: 1rem;" class="bi bi-bell"></i></span>
-                <div class="vr"></div>
-                <span style="padding: 10px;"><i style="font-size: 1.5rem;" class="bi bi-person-circle"></i></span>
-            
-                </div>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <div class=" div1 start-0 top-0">
-
-        <div class="d-flex flex-column flex-shrink-0 bg-primary-subtle" style="width: 4rem; height: 100%;">
-            <a href="/" class="d-block p-4 link-dark text-decoration-none" title="" data-bs-toggle="tooltip"
-                data-bs-placement="right" data-bs-original-title="Icon-only">
-                <!-- home icon -->
-                <i class="fa fa-home" aria-hidden="true"></i>
-                <svg class="bi" width="0" height="32">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-                <span class="visually-hidden">Icon-only</span>
-            </a>
-            <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-                <li>
-                    <a href="#" class="nav-link link-dark py-3 border-bottom" title="" data-bs-toggle="tooltip"
-                        data-bs-placement="right" data-bs-original-title="Orders">
-                        <!-- clock icon -->
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
-                        <svg class="bi" width="24" height="24" role="img" aria-label="Orders">
-                            <use xlink:href="#table"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link py-3 link-dark border-bottom" title="" data-bs-toggle="tooltip"
-                        data-bs-placement="right" data-bs-original-title="Dashboard">
-                        <!-- calender -->
-                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                        <svg class="bi" width="24" height="24" role="img" aria-label="Dashboard">
-                            <use xlink:href="#speedometer2"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link link-dark py-3 border-bottom" title="" data-bs-toggle="tooltip"
-                        data-bs-placement="right" data-bs-original-title="Orders">
-                        <!-- settings icon  -->
-                        <i class="fa fa-cog" aria-hidden="true"></i>
-                        <svg class="bi" width="24" height="24" role="img" aria-label="Orders">
-                            <use xlink:href="#table"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <main class="col-md-9 w-100 mr-10 col-lg-10 px-md-4 mt-0 ml-0 divpro">
-            <div class="d-flex  flex-wrap flex-md-nowrap align-items-md-start pt-3 pb-2">
-
-                <span>
-                    <h5 class="">Projects</h5>
-                </span>
-                <span style="margin-left:1000px">
-                    <h6>December,12</h6>
-                </span> <br>
-            </div>
-            <div class="container mb-1" style="height: 70px;">
-                <div class="row gx-5" style="height: 70px;">
-                    <div class="col col-sm-2 mr-2 mb-0 ">
-                        <div class=" ">
-                            <h6>45</h6>
-                            <h6>In progress</h6>
-                        </div>
+                    <i class="fa fa-bars me-3 ms-4" style="font-size:25px;" aria-hidden="true"></i>
+                    <h1 class="display-6 me-auto fw-bold ms-2"><b>Portfolio</b></h1>
+                    <div class="collapse navbar-collapse ms-4" id="navbarNav">
+                        <form class="d-flex">
+                            <input class="form-control me-2 rounded-5 searchBar" style="width: 400px;" type="search"
+                                placeholder="Search" aria-label="Search">
                     </div>
-                    <div class="col col-sm-2">
-                        <div class=" ">
-                            <h6>24</h6>
-                            <h6>Upcoming <i style="font-size:10px;" class="bi bi-arrow-up-circle fa-sm"></i></h6>
-                        </div>
-                    </div>
-                    <div class="col col-sm-3 ">
-                        <div class="">
-                            <h6>62</h6>
-                            <h6>Total Projects</h6>
-                        </div>
+
+                    <div class="navbar-collapse collapse " id="navbarCollapse">
+                        <ul class="navbar-nav ms-auto mr-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active" aria-current="page" href="#"><i class="far fa-moon"
+                                        style="font-size:28px;"></i></a>
+                            </li>
+                            <li class="nav-item  me-3">
+                                <a class="nav-link" href="#"><i class="fas fa-plus-circle" style="font-size:28px;"></i></a>
+                            </li>
+
+                            <li class="nav-item  me-3 pe-3  border-end">
+                                <a class="nav-link" href="#"><i class="far fa-bell" style="font-size:28px;"></i></a>
+                            </li>
+                            <li class="nav-item  me-3 pe-3 border-end">
+                                <span style="padding: 10px;"><i style="font-size: 35px;"
+                                        class="bi bi-person-circle"></i></span>
+
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </nav>
+
+            <!-- side-bar -->
+            <div class="container-fluid side-nav">
+                <div class="row">
+                    <nav class="col-md-2 mt-lg-5 ms-0  d-none d-md-block  sidebar">
+                        <div class="sidebar-sticky">
+                            <ul class="nav flex-column mb-5">
+                                <li class="nav-item mb-5">
+                                    <a class="nav-link active" href="#"><i class="fa fa-home text-dark fs-3"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item  mb-5">
+                                    <a class="nav-link" href="#"><i class="fa fa-clock-o text-dark fs-2"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item  mb-5 ">
+                                    <a class="nav-link" href="#"><i class="fa fa-calendar-o text-dark fs-3"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item  mb-5">
+                                    <a class="nav-link" href="#"><i class="fa fa-cog text-dark fs-3"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
             </div>
 
-            <div class="row mt-2 mb-0" >
-                <div class="col-sm-4 mt-0" style="height:300px;">
-                    <div class="card mb-3" style="background-color: #fee4cb; width: 415px; height: 260px;">
-                        <p class="mb-0" style="font-size: 0.6em; text-align: left;">December 10, 2010</p>
-                        <div class="card-body mb-2">
-                            <h5 class="card-title mb-0" style="text-align: center; font-size: 0.9em;">Web Designing</h5>
-                            <p class="card-text mb-0" style="text-align: center; font-size: 0.7em;">Prototyping</p>
+            <!-- cards section -->
+            <main class="d-flex">
+                <div id="container">
+                    <div class="card p-3  rounded-5 border-0" style="width:92vw;height:auto;">
+                        <div class="fs-3 d-flex mb-4 ms-3 fw-bold">
+                            <h2>Project</h2>
+                            <h5 class="ms-auto">March 21</h5>
                         </div>
-                        <hr class=" mt-1 mb-2" style="border-top: 4px solid; color: white;"></hr>
-                        <a href="#" class="btn sm-0 rounded-pill bg-light" style="color: #F99417; font-size: 0.5em; width: 130px; height:37px"><b>2 Days Left</b></a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-3" style="background-color: #E5E0FF; width: 415px; height: 260px;">
-                        <p class="mb-0" style="font-size: 0.6em; text-align: left;">December 10, 2010</p>
-                        <div class="card-body mb-2">
-                            <h5 class="card-title" style="text-align: center;font-size: 0.9em;">Testing</h5>
-                            <p class="card-text" style="text-align: center;font-size: 0.7em;">Prototyping.</p>
-                        </div>
-                        <hr class=" mt-1 mb-2" style="border-top: 4px solid; color: white;"></hr>
-                        <a href="#" class="btn sm-0 rounded-pill bg-light" style="color: #F99417; font-size: 0.5em; width: 130px; height:37px"><b>2 Days Left</b></a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="background-color: #B9F3FC;width: 415px; height: 260px;">
-                        <p class="mb-0" style="font-size: 0.6em; text-align: left;">December 10, 2010</p>
-                        <div class="card-body mb-2">
-                            <h5 class="card-title" style="text-align: center;font-size: 0.9em;">Svg Animations</h5>
-                            <p class="card-text" style="text-align: center;font-size: 0.7em;;">Prototyping.</p>
-                            
-                        </div>
-                        <hr class=" mt-1 mb-2" style="border-top: 4px solid; color: white;"></hr>
-                        <a href="#" class="btn sm-0 rounded-pill bg-light" style="color: #F99417; font-size: 0.5em; width: 130px; height:37px"><b>2 Days Left</b></a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card mb-5 m-lg-0 ms-2" style="background-color: #FFD4D4; width: 415px; height: 260px;">
-                        <p class="mb-0" style="font-size: 0.6em; text-align: left;">December 10, 2010</p>
-                        <div class="card-body mb-2">
-                            <h5 class="card-title" style="text-align: center; font-size: 0.9em;">UI Development</h5>
-                            <p class="card-text" style="text-align: center; font-size: 0.7em;">Prototyping</p>
-                            
-                        </div>
-                        <hr class=" mt-1 mb-2" style="border-top: 4px solid; color: white;"></hr>
-                        <a href="#" class="btn sm-0 rounded-pill bg-light" style="color: #F99417; font-size: 0.5em; width: 130px; height:37px"><b>2 Days Left</b></a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="background-color: #B5F1CC; width: 415px; height: 260px;">
-                        <p class ="mb-0" style="font-size: 0.6em;text-align: left; margin-top: none; color: grey;">December 10, 2010</p>
-                        <div class="card-body mb-2">
-                            
-                            <h5 class="card-title" style="text-align: center;font-size: 0.9em;">Data Analysis</h5>
-                            <p class="card-text" style="text-align: center;font-size: 0.7em;">Prototyping.</p>
-                            
-                        </div>
-                        <hr class=" mt-1 mb-2" style="border-top: 4px solid; color: white;"></hr>
-                        <a href="#" class="btn sm-0 rounded-pill bg-light" style="color: #F99417; font-size: 0.5em; width: 130px; height:37px"><b>2 Days Left</b></a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" style="background-color: #95BDFF; width: 415px; height: 260px;">
-                        <p class ="mb-0" style="font-size: 0.6em;text-align: left; color: grey">December 10, 2010</p>
-                        <div class="card-body mb-2">
-                            
-                            <h5 class="card-title" style="text-align: center;font-size: 0.9em;">Web Designing</h5>
-                            <p class="card-text" style="text-align: center;font-size: 0.7em;;">Prototyping.</p>
-                            
-                        </div>
-                        <hr class=" mt-1 mb-2" style="border-top: 4px solid; color: white;"></hr>
-                        <a href="#" class="btn sm-0 rounded-pill bg-light" style="color: #F99417; font-size: 0.5em; width: 130px; height:37px"><b>2 Days Left</b></a>
-                    </div>
-                </div>
-                <!-- <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div> -->
-            </div>
-        </main>
-    </div>
 
-    
+                        <div class="d-flex flex-row me-2 ms-3">
+                            <div class="p-2 ">
+                                <h3>45</h3>
+                                <p class="text-opacity-25" style="color:grey">In Progress </p>
+                            </div>
+                            <div class="d-flex flex-row me-2">
+                                <div class="p-2 ">
+                                    <h3>24</h3>
+                                    <p class="text-opacity-25" style="color:grey">Upcoming</p>
+                                </div>
+                                <div class="d-flex flex-row me-2">
+                                    <div class="p-2 ">
+                                        <h3>62</h3>
+                                        <p class="text-opacity-2 " style="color:grey">Total projects </p>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-3 d-flex flex-row flex-wrap  rounded-5 border-0 "
+                            style="width:100%;height:auto;">
+
+                            <div class="card p-2 mb-3 me-3 pt-3 rounded-4 border-0 card-body"
+                                style="background-color: #fee4cb;">
+                                <div class="fs-6 ms-2 d-flex ">
+                                    <p class="text-grey ">December 10,2022</p> <i
+                                        class=" ms-auto me-2  fas fa-ellipsis-v"></i>
+                                </div>
+                                <div class="text-center border-bottom border-light">
+                                    <div class="fs-5 mb-1 ">Web Developemnt</div>
+                                    <div class="fs-6 mb-4 ">Prototyping</div>
+                                </div>
+                                <span class="badge rounded-pill  mt-2 ms-2"
+                                    style="width:25%; background-color: rgb(255, 255, 255);color:#efb884">2 Days Left</span>
+
+                            </div>
+                            <div class="card p-2 mb-2 me-3   pt-3 rounded-4 border-0 card-body"
+                                style="background-color:#e9e7fd;">
+                                <div class="fs-6 ms-2 d-flex  ">
+                                    <p class="text-grey">December 10,2022</p> <i
+                                        class=" ms-auto me-2 fas fa-ellipsis-v"></i>
+                                </div>
+                                <div class="text-center border-bottom  border-light">
+                                    <div class="fs-5 mb-1 ">Testing</div>
+                                    <div class="fs-6 mb-4 ">Prototyping</div>
+                                </div>
+                                <span class="badge rounded-pill  mt-2 ms-2"
+                                    style="width:25%; background-color: rgb(255, 255, 255);color:#978ff1;">2 Days
+                                    Left</span>
+
+                            </div>
+                            <div class="card p-2 mb-2 me-3   pt-3 rounded-4 border-0 card-body"
+                                style="background-color:#dbf6fd;">
+                                <div class="fs-6 ms-2 d-flex ">
+                                    <p class="text-grey">December 10,2022</p> <i
+                                        class=" ms-auto me-2 fas fa-ellipsis-v"></i>
+                                </div>
+                                <div class="text-center border-bottom  border-light">
+                                    <div class="fs-5 mb-1 ">Svg Animations</div>
+                                    <div class="fs-6 mb-4 ">Prototyping</div>
+                                </div>
+                                <span class="badge rounded-pill  mt-2 ms-2"
+                                    style="width:25%; background-color: rgb(255, 255, 255);color:#7cd6ec;">2 Days
+                                    Left</span>
 
 
-    <!-- <div class="container text-center div1">
-        <div class="container px-4 text-center">
-            <div class="row gx-5">
-                <div class="col">
-                    <div class="p-1">
-                        <h4>45</h4>
-                        <p>In Progress</p>
+                            </div>
+                            <div class="card p-2 mb-2 me-3 pt-3 rounded-4 border-0 card-body"
+                                style=" background-color:#ffd3e2 ;">
+                                <div class="fs-6 ms-2 d-flex ">
+                                    <p class="text-grey">December 10,2022</p> <i
+                                        class=" ms-auto me-2 fas fa-ellipsis-v"></i>
+                                </div>
+                                <div class="text-center border-bottom  border-light">
+                                    <div class="fs-5 mb-1">UI Developemnt</div>
+                                    <div class="fs-6 mb-4 ">Prototyping</div>
+                                </div>
+                                <span class="badge rounded-pill  mt-2 ms-2"
+                                    style="width:25%; background-color: rgb(255, 255, 255);color:#fe8db3;">2 Days
+                                    Left</span>
+
+                            </div>
+                            <div class="card p-2 mb-2 me-3 pt-3 rounded-4 border-0 card-body"
+                                style=" background-color:#c8f7dc ;">
+                                <div class="fs-6 ms-2 d-flex ">
+                                    <p class="text-grey">December 10,2022</p> <i
+                                        class=" ms-auto me-2 fas fa-ellipsis-v"></i>
+                                </div>
+                                <div class="text-center border-bottom  border-light">
+                                    <div class="fs-5 mb-1 ">Data Analysis</div>
+                                    <div class="fs-6 mb-4 ">Prototyping</div>
+                                </div>
+                                <span class="badge rounded-pill  mt-2 ms-2"
+                                    style="width:25%; background-color: rgb(255, 255, 255);color:#87f4b6;">2 Days
+                                    Left</span>
+
+
+                            </div>
+                            <div class="card p-2 mb-2 me-3   pt-3 rounded-4 border-0 card-body"
+                                style=" background-color:#d5deff ;">
+                                <div class="fs-6 ms-2 d-flex ">
+                                    <p class="text-grey">December 10,2022</p> <i
+                                        class=" ms-auto me-2 fas fa-ellipsis-v"></i>
+                                </div>
+                                <div class="text-center border-bottom  border-light">
+                                    <div class="fs-5 mb-1 ">Web Designing</div>
+                                    <div class="fs-6 mb-4 ">Prototyping</div>
+                                </div>
+                                <span class="badge rounded-pill  mt-2 ms-2 "
+                                    style="width:25%; background-color: rgb(255, 255, 255);color:#a2b5fa;">2 Days
+                                    Left</span>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="p-1">
-                        <h4>24</h4>
-                        <p>Upcoming</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="p-1">
-                        <h4>62</h4>
-                        <p>Total Projects</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <script src="https://kit.fontawesome.com/dd5845b234.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-</body>
+            </main>
+        <script src="https://kit.fontawesome.com/dd5845b234.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+                integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+                crossorigin="anonymous"></script>
+    </body>
 
 </html>

@@ -16,14 +16,22 @@ function split() {
         document.getElementById("invalid").innerHTML = "Enter integer value only.";
         return;
     }
+
+
         let num = parseInt(number);
         let parts = parseInt(splits);
         document.getElementById("invalid").innerHTML = "";
-      
+
+        if (num <=0) {
+                document.getElementById("invalid").innerHTML = "Number can not be negative.";
+                return;
+        }
+
         if (parts > num) {
                 document.getElementById("invalid").innerHTML = "Splits can't be greater than number";
                 return;
         }
+        
         if (splits <= 0) {
                 document.getElementById("invalid").innerHTML = "Splits should not be negative.";
                 return;
